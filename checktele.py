@@ -334,7 +334,7 @@ async def _(event):
             isclaim.clear()
             isclaim.append("off")
             await fifthon.send_message(event.chat_id, "تم الانتهاء من التثبيت التلقائي")
-        if msg[0] == "يدوي":  # تثبيت يدوي يوزر قناة
+        if msg[0] == "تلقائي":  # تثبيت تلقائي يوزر قناة
             await event.edit(f"حسناً سأحاول تثبيت `{username}` على `{ch}` !")
             msg = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
             username = str(msg[0])
@@ -344,7 +344,7 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
 - Done ↣ (@{username})
-- By ↣ @l99lii - @E_T_4 !
+- By ↣ @okye7 - @okye4 !
 - Hunting History ↣ {Hussenk}
 - Hunting Hour ↣ {Levii}
     ''')
