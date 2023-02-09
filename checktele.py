@@ -249,10 +249,18 @@ async def _(event):
                     await fifthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-- Done ↣ (@{username})
-- By ↣ @E_T_4 - @l99lii !
-- Hunting History ↣ {Hussenk}
-- Hunting Hour ↣ {Levii}
+●━━━━━━━━●
+┏━━━━━┓
+- By ↣ @M_1_1_M
+┗━━━━━┛
+┏━━━━━┓
+↣ (@{username})
+┗━━━━━┛
+┏━━━━━┓
+- By ↣@W_P_PP
+┗━━━━━┛
+●━━━━━━━━●
+
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -273,7 +281,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "اجاك متاح")
+        await event.client.send_message(event.chat_id, "! انتهى الصيد")
         
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -309,10 +317,18 @@ async def _(event):
                         await fifthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-- Done ↣ (@{username})
-- By ↣ @E_T_4 - @l99lii !
-- Hunting History ↣ {Hussenk}
-- Hunting Hour ↣ {Levii}
+●━━━━━━━━●
+┏━━━━━┓
+- By ↣ @M_1_1_M
+┗━━━━━┛
+┏━━━━━┓
+↣ (@{username})
+┗━━━━━┛
+┏━━━━━┓
+- By ↣@W_P_PP
+┗━━━━━┛
+●━━━━━━━━●
+
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -343,10 +359,18 @@ async def _(event):
                 await fifthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-- Done ↣ (@{username})
-- By ↣ @l99lii - @E_T_4 !
-- Hunting History ↣ {Hussenk}
-- Hunting Hour ↣ {Levii}
+●━━━━━━━━●
+┏━━━━━┓
+- By ↣ @M_1_1_M 
+┗━━━━━┛
+┏━━━━━┓
+↣ (@{username})
+┗━━━━━┛
+┏━━━━━┓
+- By ↣@W_P_PP
+┗━━━━━┛
+●━━━━━━━━●
+
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
